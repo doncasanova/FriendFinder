@@ -1,6 +1,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
+require("/app/routing/htmlRoutes.js");
 
 // Sets up the Express App
 // =============================================================
@@ -10,11 +11,6 @@ var PORT = process.env.PORT || 3000;
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-
-app.get("/", function(req, res) {
-    res.send("Check one,two,three");
-  });
 
 
   // Listener
