@@ -4,10 +4,10 @@
 // =============================================================
 // module.exports = function (app){
     console.log("you made it into the array of friends")
-friends = [
+var friends = [
     {
-        name: "Ahmed1",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        name: "Arthur",
+        photo:"http://http://iv1.lisimg.com/image/8017566/400full-henry-winkler.jpg.jpg",
         scores: [
             5,
             1,
@@ -20,11 +20,11 @@ friends = [
             4,
             1
         ],
-        compatNum: "32"
+        compatNum: 32
     },
     {
-        name: "Ahmed2",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        name: "Richie",
+        photo:"http://cyber-breeze.com/wp-content/uploads/2017/02/006-7-ron-howard-was-almost-drafted-1461546.jpg",
         scores: [
             5,
             3,
@@ -37,11 +37,11 @@ friends = [
             4,
             1
         ],
-        compatNum: "36"
+        compatNum: 36
     },
     {
-        name: "Ahmed3",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        name: "Howard",
+        photo:"http://www.justfindit4u.com/wp-content/uploads/2012/10/Tom-Bosley.jpg",
         scores: [
             5,
             3,
@@ -54,11 +54,11 @@ friends = [
             4,
             1
         ],
-        compatNum: "36"
+        compatNum: 36
     },
     {
-        name: "Ahmed4",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        name: "Marion",
+        photo:"http://asknetworth.com/wp-content/uploads/2016/06/marion-ross-net-worth.jpg",
         scores: [
             5,
             1,
@@ -71,13 +71,15 @@ friends = [
             1,
             1
         ],
-        compatNum: "25"
+        compatNum: 25
     }
 ];
 
 // }
 
 module.exports = friends;
+
+
 
 
 

@@ -1,6 +1,6 @@
 var express = require("express");
 var bodyParser = require("body-parser");
-var path = require("path");
+// var path = require("path");
 // require("app/routing/htmlRoutes.js");
 
 // Sets up the Express App
@@ -17,7 +17,7 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 //var htmlRoutes 
 require("./app/routing/htmlRoutes.js")(app);
 //var apiRoutes = 
-require("./app/routing/apiRoutes.js");
+require("./app/routing/apiRoutes.js")(app);
 
 
 
